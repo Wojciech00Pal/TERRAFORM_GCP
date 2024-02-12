@@ -4,7 +4,7 @@ provider "google" {
 }
 
 # Deploy image to Cloud Run
-resource "google_cloud_run_service" "my-service" {
+resource "google_cloud_run_service" "my_service" {
   name     = var.service_name
   location = var.region
   template {
@@ -40,5 +40,5 @@ resource "google_cloud_run_service_iam_policy" "noauth" {
 
 # Return service URL
 output "url" {
-  value = "${google_cloud_run_service.my-service.status[0].url}"
+  value = "${google_cloud_run_service.my_service.status[0].url}"
 }

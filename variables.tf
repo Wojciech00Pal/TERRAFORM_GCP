@@ -5,7 +5,7 @@ variable "project_id" {
 
 variable "region" {
   type = string
-  description = "europe-central2"
+  description = "location"
 }
 
 variable "image_name" {
@@ -20,5 +20,5 @@ variable "image_tag" {
 
 variable "service_name" {
   type = string
-  description = "CloudRunTest"
+  description = "cloudruntest"
 }

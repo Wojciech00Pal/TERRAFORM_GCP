@@ -1,0 +1,6 @@
+project_id = "proj-alk-011"
+region = "europe-central2"
+image_name = "reactnav-site"
+image_name2 = "reactnav-site@sha256:64d8d63d08af7653eee45cd5b5bfd5d1be9fe3a2e57489ce8062406291caf262"
+image_tag = "dev"
+service_name = "my-cloudrun-service"
